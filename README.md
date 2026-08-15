@@ -23,8 +23,8 @@ However, multi-variable interactions—specifically **Country** paired with **Pr
   * **USA + Home Category:** Highest risk segment with a **10% fraud rate**.
   * **Japan + Electronics:** Secondary hotspot with a **9% fraud rate**.
   * **Zero-Fraud Segments:** Combinations like `USA + Beauty` and `China + Sports` showed **0% fraud**.
-* **Feature Engineering:** Order-density ratios (e.g., $\frac{\text{loyalty\_score}}{\text{total\_orders}}$) confirmed that standalone aggregations in this dataset do not linearly separate fraud without higher-order interaction features.
-
+* **Feature Engineering:** Order-density ratios (e.g., `loyalty_score / total_orders`) confirmed that standalone aggregations in this dataset do not linearly separate fraud without higher-order interaction features.
+*
 ---
 
 ## 🛠️ Tech Stack & Libraries
