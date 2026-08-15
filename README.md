@@ -39,5 +39,5 @@ However, multi-variable interactions—specifically **Country** paired with **Pr
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/mohamed-elaraby5/fraud-eda.git](https://github.com/mohamed-elaraby5/fraud-eda.git)
+   git clone https://github.com/mohamed-elaraby5/fraud-eda.git
    cd fraud-eda
